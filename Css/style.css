@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+/* 
+===============================
+Template Name : Beetales - responsive web design
+Author : Mahir Afsar
+Version: 1.1.1
+===============================
+ */
+*{
+    font-family: 'PT Sans', sans-serif;
+    
+}
+/* ===========================Common CSS start============================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+:root{
+    --color1 : #fcdb00;
+    --color2 : #f1f1f1;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'PT Sans', sans-serif;
+}
+/* ===========================Common CSS end============================== */
+
+
+
+/* ===========================Navbar CSS Start============================== */
+.navbar_section{
+    background: #fcdb00;
+    padding: 10px 0;
+}
+.navbar_section ul li{
+    padding: 0 15px;
+}
+.navbar_section ul li a{
+    color: rgba(0, 0, 0, 0.767);
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.navbar_section ul li a:hover{
+    color: black;
+    transition: 0.4s;
+}
+/* ===========================Navbar CSS end============================== */
+
+
+/* ===========================Banner CSS Start============================== */
+.banner_part{
+    background: var(--color1);
+    padding: 60px 0;
+}
+.banner_info h4{
+    font-weight: 700;
+    font-size: 40px;
+}
+.banner_info h6{
+    font-weight: 500;
+    font-size: 30px;
+
+}
+.banner_info p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #555555;
+}
+.banner_info_Icon{
+    padding-top: 20px;
+}
+.banner_info_Icon img{
+    padding-right: 60px;
+}
+/* ===========================Banner CSS end============================== */
+
+
+/* ===========================Info CSS Start============================== */
+.info_part{
+    padding: 50px 0;
+}
+.info_section_head{
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.info_section_head h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+.info_section_head p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.info_con_part .con_icon{
+    padding-right: 15px;
+}
+.info_con_part .con_info h4{
+    font-weight: 700;
+    font-size: 20px;
+}
+.info_con_part .con_info p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #555555;
+    text-align: justify;
+}
+/* ===========================Info CSS end============================== */
+
+
+/* ===========================footer CSS start============================== */
+.footer_section{
+    padding: 50px 0;
+    background: black;
+}
+.footer_section_head{
+    width: 55%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.footer_section_head h3{
+    font-weight: 700;
+    font-size: 30px;
+    color: #fcdb00;
+}
+.footer_section_head p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #555555;
+}
+.footer_submit_part input{
+    width: 85%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.footer_submit_part button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--color1);
+}
+.footer_icons .footer_icon{
+    height: 50px;
+    width: 50px;
+    background: var(--color1);
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+}
+.footer_icon a{
+    color: black;
+}
+
+/* ===========================footer CSS end============================== */   
